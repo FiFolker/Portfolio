@@ -10,11 +10,14 @@
 	<!-- Bootstrap CSS v5.3 -->
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
 	integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+	<link rel="stylesheet" href="/css/style.css">
+	<script src="/js/script.js"></script>
 	
 </head>
 
 <body>
-	<header class="p-3 text-bg-dark">
+	
+	<header class="p-3 ">
 		<div class="container">
 			<div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
 				<a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
@@ -24,7 +27,7 @@
 				<ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
 					<li><a href="#" class="nav-link px-2 text-white">Accueil</a></li>
 					<div class="btn-group">
-						<button class="btn btn-dark dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+						<button class="btn text-white dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
 							Thème
 						</button>
 						<ul class="dropdown-menu">
@@ -45,80 +48,72 @@
 		
 	</header>
 	
-	<main >
-        <div class="flex-shrink-0 p-3 bg-white" style="width: 280px;">
-            <a href="/" class="d-flex align-items-center pb-3 mb-3 link-dark text-decoration-none border-bottom">
-                <svg class="bi me-2" width="30" height="24"><use xlink:href="#bootstrap"></use></svg>
-                <span class="fs-5 fw-semibold">Liste des ReTex</span>
-            </a>
-            <ul class="list-unstyled ps-0">
-                <li class="mb-1">
-                    <button class="btn btn-toggle align-items-center rounded" data-bs-toggle="collapse" data-bs-target="#home-collapse" aria-expanded="true">
-                        Java
-                    </button>
-                    <div class="collapse show" id="home-collapse" style>
-                        <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
-                            <li><a href="#" class="link-dark rounded">Overview</a></li>
-                            <li><a href="#" class="link-dark rounded">Updates</a></li>
-                            <li><a href="#" class="link-dark rounded">Reports</a></li>
-                        </ul>
-                    </div>
-                </li>
-                <li class="mb-1">
-                    <button class="btn btn-toggle align-items-center rounded" data-bs-toggle="collapse" data-bs-target="#dashboard-collapse" aria-expanded="true">
-                        Python
-                    </button>
-                    <div class="collapse show" id="dashboard-collapse" style="">
-                        <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
-                            <li><a href="#" class="link-dark rounded">Overview</a></li>
-                            <li><a href="#" class="link-dark rounded">Weekly</a></li>
-                            <li><a href="#" class="link-dark rounded">Monthly</a></li>
-                            <li><a href="#" class="link-dark rounded">Annually</a></li>
-                        </ul>
-                    </div>
-                </li>
-                <li class="mb-1">
-                    <button class="btn btn-toggle align-items-center rounded" data-bs-toggle="collapse" data-bs-target="#orders-collapse" aria-expanded="true">
-                        C#
-                    </button>
-                    <div class="collapse show" id="orders-collapse" style="">
-                        <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
-                            <li><a href="#" class="link-dark rounded">New</a></li>
-                            <li><a href="#" class="link-dark rounded">Processed</a></li>
-                            <li><a href="#" class="link-dark rounded">Shipped</a></li>
-                            <li><a href="#" class="link-dark rounded">Returned</a></li>
-                        </ul>
-                    </div>
-                </li>
-                <li class="border-top my-3"></li>
-                <li class="mb-1">
-                    <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#account-collapse" aria-expanded="false">
-                        Account
-                    </button>
-                    <div class="collapse" id="account-collapse" style="">
-                        <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
-                            <li><a href="#" class="link-dark rounded">New...</a></li>
-                            <li><a href="#" class="link-dark rounded">Profile</a></li>
-                            <li><a href="#" class="link-dark rounded">Settings</a></li>
-                            <li><a href="#" class="link-dark rounded">Sign out</a></li>
-                        </ul>
-                    </div>
-                </li>
-            </ul>
-        </div>
+	<main>
+		<div class="row">
+			<div class="flex-shrink-0 p-3 border border-start-0 border-dark border-3 col-sm-2 bg-dark bg-opacity-50">
+				<span class=" d-flex align-items-center pb-3 mb-3 border-bottom fs-5 fw-semibold text-white">Liste des ReTex</span>
+				<ul class="list-unstyled ps-0">
+					<li class="mb-1">
+						<button class="btn btn-toggle align-items-center rounded text-white" data-bs-toggle="collapse" data-bs-target="#java-collapse" aria-expanded="true">
+							Java
+						</button>
+						<div class="collapse show" id="java-collapse">
+							<ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+								<li><button onclick="show(this.id)" id="odomo" class="link-dark rounded">Odomo</button></li>
+								<li><button onclick="show(this.id)" id="biosphere7" class="link-dark rounded">Biosphere 7</button></li>
+								<li><button onclick="show(this.id)" id="iabiosphere7" class="link-dark rounded">IA Biosphere 7</button></li>
+								<li><button onclick="show(this.id)" id="guibiosphere7" class="link-dark rounded">GUI Biosphere 7</button></li>
+							</ul>
+						</div>
+					</li>
+					<li class="mb-1">
+						<button class="btn btn-toggle align-items-center rounded text-white" data-bs-toggle="collapse" data-bs-target="#python-collapse" aria-expanded="true">
+							Python
+						</button>
+						<div class="collapse show" id="python-collapse">
+							<ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+								<li><button onclick="show(this.id)" id="renamer" class="link-dark rounded">Renommeur de Masse</button></li>
+								<li><button onclick="show(this.id)" id="greenBg" class="link-dark rounded">Test</button></li>
+								<li><button onclick="show(this.id)" class="link-dark rounded">Monthly</button></li>
+								<li><button onclick="show(this.id)" class="link-dark rounded">Annually</button></li>
+							</ul>
+						</div>
+					</li>
+					<li class="mb-1">
+						<button class="btn btn-toggle align-items-center rounded text-white" data-bs-toggle="collapse" data-bs-target="#csharp-collapse" aria-expanded="true">
+							C#
+						</button>
+						<div class="collapse show" id="csharp-collapse">
+							<ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+								<li><button onclick="show(this.id)" class="link-dark rounded">New</button></li>
+								<li><button onclick="show(this.id)" class="link-dark rounded">Processed</button></li>
+								<li><button onclick="show(this.id)" class="link-dark rounded">Shipped</button></li>
+								<li><button onclick="show(this.id)" class="link-dark rounded">Returned</button></li>
+							</ul>
+						</div>
+					</li>
+					<li class="border-top my-3"></li>
+				</ul>
+				
+			</div>
+			<div id="retexPlace" class="col-sm d-flex align-items-center justify-content-center">
+
+			</div>
+		</div>
+		
 	</main>
 	
-	<footer class="d-flex flex-wrap justify-content-between align-items-center py-3  border-top text-bg-dark">
+	<footer class="d-flex flex-wrap justify-content-between align-items-center py-3">
 		<p class="col-md-4 mb-0 text-white">© 2022 Company, Inc</p>
 		
 		<a href="/" class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none">
-			<img src="../ressources/icon/icon.png" class="bi" width="40" height="40" alt="icon"/>
+			<img src="/ressources/icon/icon.png" class="bi" width="40" height="40" alt="icon"/>
 		</a>
 		
 		<ul class="nav col-md-4 justify-content-end ">
 			<li class="nav-item"><a href="#" class="nav-link px-2 text-white">Accueil</a></li>
 			<div class="btn-group dropup">
-				<button type="button" class="btn btn-dark dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+				<button type="button" class="btn text-white dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
 					Thème
 				</button>
 				<ul class="dropdown-menu">

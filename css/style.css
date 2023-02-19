@@ -1,21 +1,20 @@
-.bg-green-paletton{
-    background-color: #5F736C;
+.bg-second{
+    background-color: #F6EC80;
+    color:black;
 }
 
-.bg-purple-paletton{
-    background-color: #181725;
-    color:#666577;
+.bg-second-variation{
+    background-color: #CEC34B;
+    color:black;
 }
 
-.bg-brown-paletton{
-    background-color: #7B6A62;
+.bg-third{
+    background-color: #F6C480;
     color:#311C12;
 }
 
-.bg-brown2-paletton{
-    background-color: #7B7562;
-    color:#312912;
-}
+
+
 body{
     background-image: url('/ressources/purpleBg.png');
     background-repeat: no-repeat;
