@@ -16,3 +16,9 @@
     background-color: #7B7562;
     color:#312912;
 }
+body{
+    background-image: url('/ressources/purpleBg.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
