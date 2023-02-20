@@ -54,12 +54,15 @@
 				<span class="d-flex align-items-center pb-3 mb-3 border-bottom fs-5 fw-semibold text-white">Liste des ReTex</span>
 				<ul class="list-unstyled ps-0">
 					<li class="mb-1">
-						<button class="btn btn-toggle align-items-center rounded text-white" data-bs-toggle="collapse" data-bs-target="#java-collapse" aria-expanded="true">
-							Java
+						<button onclick="animeArrow()" class="btn btn-toggle d-inline-flex align-items-center rounded text-white main-section" data-bs-toggle="collapse" data-bs-target="#java-collapse" aria-expanded="true">
+							<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-right" viewBox="0 0 16 16">
+								<path d="M6 12.796V3.204L11.481 8 6 12.796zm.659.753 5.48-4.796a1 1 0 0 0 0-1.506L6.66 2.451C6.011 1.885 5 2.345 5 3.204v9.592a1 1 0 0 0 1.659.753z"/>
+							</svg> Java
 						</button>
+						
 						<div class="collapse show" id="java-collapse">
 							<ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
-								<li><button onclick="show(this.id)" id="odomo" class="link-dark rounded text-decoration-none">Odomo</button></li>
+								<li><button onclick="show(this.id)" id="odomo" class="link-dark rounded d-inline-flex">Odomo</button></li>
 								<li><button onclick="show(this.id)" id="biosphere7" class="link-dark rounded">Biosphere 7</button></li>
 								<li><button onclick="show(this.id)" id="iabiosphere7" class="link-dark rounded">IA Biosphere 7</button></li>
 								<li><button onclick="show(this.id)" id="guibiosphere7" class="link-dark rounded">GUI Biosphere 7</button></li>
@@ -67,28 +70,27 @@
 						</div>
 					</li>
 					<li class="mb-1">
-						<button class="btn btn-toggle align-items-center rounded text-white" data-bs-toggle="collapse" data-bs-target="#python-collapse" aria-expanded="true">
-							Python
+						<button class="btn btn-toggle align-items-center rounded text-white main-section" data-bs-toggle="collapse" data-bs-target="#python-collapse" aria-expanded="true">
+							<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-right" viewBox="0 0 16 16">
+								<path d="M6 12.796V3.204L11.481 8 6 12.796zm.659.753 5.48-4.796a1 1 0 0 0 0-1.506L6.66 2.451C6.011 1.885 5 2.345 5 3.204v9.592a1 1 0 0 0 1.659.753z"/>
+							</svg> Python
 						</button>
 						<div class="collapse show" id="python-collapse">
 							<ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
 								<li><button onclick="show(this.id)" id="renamer" class="link-dark rounded">Renommeur de Masse</button></li>
 								<li><button onclick="show(this.id)" id="greenBg" class="link-dark rounded">Test</button></li>
-								<li><button onclick="show(this.id)" class="link-dark rounded">Monthly</button></li>
-								<li><button onclick="show(this.id)" class="link-dark rounded">Annually</button></li>
 							</ul>
 						</div>
 					</li>
 					<li class="mb-1">
-						<button class="btn btn-toggle align-items-center rounded text-white" data-bs-toggle="collapse" data-bs-target="#csharp-collapse" aria-expanded="true">
-							C#
+						<button class="btn btn-toggle align-items-center rounded text-white main-section" data-bs-toggle="collapse" data-bs-target="#csharp-collapse" aria-expanded="true">
+							<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-right" viewBox="0 0 16 16">
+								<path d="M6 12.796V3.204L11.481 8 6 12.796zm.659.753 5.48-4.796a1 1 0 0 0 0-1.506L6.66 2.451C6.011 1.885 5 2.345 5 3.204v9.592a1 1 0 0 0 1.659.753z"/>
+							</svg> C#
 						</button>
 						<div class="collapse show" id="csharp-collapse">
 							<ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
-								<li><button onclick="show(this.id)" class="link-dark rounded">New</button></li>
-								<li><button onclick="show(this.id)" class="link-dark rounded">Processed</button></li>
-								<li><button onclick="show(this.id)" class="link-dark rounded">Shipped</button></li>
-								<li><button onclick="show(this.id)" class="link-dark rounded">Returned</button></li>
+								<li><button onclick="show(this.id)" id="devin" class="link-dark rounded">Devin</button></li>
 							</ul>
 						</div>
 					</li>
