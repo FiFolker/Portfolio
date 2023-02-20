@@ -21,3 +21,16 @@ body{
     background-attachment: fixed;
     background-size: cover;
 }
+
+@media(min-width:576px){
+    .fixed-sm-bottom{
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+    }
+}
+
+button {
+    all: unset;
+    cursor: pointer;
+}
