@@ -6,11 +6,13 @@ function show(id){
     }
 }
 
-/*
-var content = document.getElementById("content");
-var btn = document.getElementById("btn");
-var rot = 360;
+
+/*let content = document.getElementsByClassName("rotate");
+let btn = document.getElementsByClassName("main-section");
+let rot = 0;
 btn.addEventListener("click", function() {
   content.style = 'transform: rotate(' + rot + 'deg)';
-  rot += 360;
+  rot += 90;
+  console.log(rot)
 });*/
+
