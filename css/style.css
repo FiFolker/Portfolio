@@ -35,10 +35,12 @@ button {
     cursor: pointer;
 }
 
-.main-section.collapsed .rotate {
+/*.main-section.collapsed .rotate {
     transform: rotate(-90deg);
     transition: .3s ease-in-out;
-}
+}*/
+
+
 
 .highlight:hover{
     background-color: #3b807657;
