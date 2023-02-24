@@ -1,78 +1,84 @@
 .bg-second{
-    background-color: #F6EC80;
-    color:black;
+	background-color: #F6EC80;
+	color:black;
 }
 
 .bg-second-variation{
-    background-color: #CEC34B;
-    color:black;
+	background-color: #CEC34B;
+	color:black;
 }
 
 .bg-third{
-    background-color: #F6C480;
-    color:#311C12;
+	background-color: #F6C480;
+	color:#311C12;
 }
 
 
 
 body{
-    background-image: url('../ressources/purpleBg.png');
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
+	background-image: url('../ressources/background.svg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
 }
 
 @media(min-width:1800px){
-    .fixed-sm-bottom{
-        position: fixed;
-        bottom: 0;
-        width: 100%;
-    }
+	.fixed-sm-bottom{
+		position: fixed;
+		bottom: 0;
+		width: 100%;
+	}
 }
 
 button {
-    all: unset;
-    cursor: pointer;
+	all: unset;
+	cursor: pointer;
 }
 
 .main-section.collapsed .rotate {
-    transform: rotate(-90deg);
-    transition: .3s ease-in-out;
+	transform: rotate(-90deg);
+	transition: .3s ease-in-out;
 }
 
 
 
 .highlight:hover{
-    background-color: #3b807657;
-    transform:scale(1.1);
-    transition: 0.1s ease;
-    
+	background-color: #3b807657;
+	transform:scale(1.1);
+	transition: 0.1s ease;
+	
 }
   
 .underline{
-    position: relative;
-    color: #ffffff;
-    text-decoration: none;
+	position: relative;
+	color: #ffffff;
+	text-decoration: none;
 }
 
 .underline:hover {
-    color: #f3f3f3;
+	color: #f3f3f3;
 }
   
 .underline::before {
-    content: "";
-    position: absolute;
-    display: block;
-    width: 100%;
-    height: 2px;
-    bottom: 0;
-    left: 0;
-    background-color: #ffffff;
-    transform: scaleX(0);
-    transition: transform 0.3s ease;
+	content: "";
+	position: absolute;
+	display: block;
+	width: 100%;
+	height: 2px;
+	bottom: 0;
+	left: 0;
+	background-color: #ffffff;
+	transform: scaleX(0);
+	transition: transform 0.3s ease;
 }
   
 .underline:hover::before {
-    transform: scaleX(1);
+	transform: scaleX(1);
 }
   
+.try{
+	border: solid 5px;
+	transform: translateY(50%);
+	transition: transform 5s;
+}
+
