@@ -82,3 +82,7 @@ button {
 	transition: transform 5s;
 }
 
+.card:hover{
+	transform: scale(1.025);
+	transition: transform .8s;
+}
