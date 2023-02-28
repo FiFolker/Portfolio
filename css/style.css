@@ -28,6 +28,13 @@ body{
 		bottom: 0;
 		width: 100%;
 	}
+	
+}
+
+@media(min-width:992px){
+	.sidebar{
+		height: calc(100vh - 72px);
+	}
 }
 
 
@@ -88,6 +95,3 @@ button {
 	transition: transform .8s;
 }
 
-.sidebar{
-	
-}
