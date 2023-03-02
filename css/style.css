@@ -128,12 +128,12 @@ button {
 
 .cahierDesCharges,
 .competences{
-	background-color: rgba(246, 236, 128, .75);
+	background-color: rgba(246, 236, 128, .9);
 	color:black;
 }
 
 .livrable,
 .methodesEtOutils{
-	background-color: rgba(246, 196, 128, .75);
+	background-color: rgba(246, 196, 128, .9);
 	color:#311C12;
 }
