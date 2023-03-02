@@ -8,7 +8,7 @@ const listOfParts = ["cahierDesCharges", "livrable", "methodesEtOutils", "compet
 function show(id){
 	const thePlaceToBe = document.querySelector(".retex"); 
 
-	document.getElementById("temp").textContent = data.programmationAlgorithmique.name;
+	document.getElementById("temp").write = data.programmationAlgorithmique.name;
 
 	fetch(`../ressources/data/${id}.txt`) // lis le fichier
 	.then(response => {
