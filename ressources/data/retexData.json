@@ -1,28 +1,39 @@
 {
-	
-
-	"web":{
-		"id":"Odomo",
-		"cahierDeCharges" : [
-			"Il fallait faire une station météo tah fonctionnelle",
-			"tkt c pro EZ je met du",
-			"text pour test tkt tkt tkt"
-		] ,
-		"livrable":[
-			"img",
-			"imgg"
-		],
-		"methodesEtOutils" : [
-			"Netbeans (best IDE)",
-			"Java"
-		],
-		"competences" : [
-			"Maitrise des tableaux 2D "
-		]
-	},
 	"programmationAlgorithmique":{
-		"id":"test2",
-		"text":"test2",
-		"texrezrzerzt":"test2"
+		"name" : "Programmation Algorithmique Test",
+		"sidebar":{
+			"Java":[
+				"Odomo",
+				"Biosphere 7",
+				"IA Biosphere 7",
+				"GUI Biosphere 7"
+			],
+			"Python":[
+				"Renommeur de Masse"
+			],
+			"C#":[
+				"Devin"
+			]
+		},
+		"retex":{
+			"id":"Odomo",
+			"cahierDeCharges" : [
+				"Il fallait faire une station météo tah fonctionnelle",
+				"tkt c pro EZ je met du",
+				"text pour test tkt tkt tkt"
+			] ,
+			"livrable":[
+				"img",
+				"imgg"
+			],
+			"methodesEtOutils" : [
+				"Netbeans (best IDE)",
+				"Java"
+			],
+			"competences" : [
+				"Maitrise des tableaux 2D "
+			]
+		}
+		
 	}
 }

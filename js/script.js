@@ -1,45 +1,14 @@
-//import dataPath from "../ressources/data/retexData.json";
+import data from '../ressources/data/retexData.json' assert {type:'json'};
 
 const separator = ";";
 const separatorList = "*";
 const listOfParts = ["cahierDesCharges", "livrable", "methodesEtOutils", "competences"];
 
-const dataJson = [
-	{
-		"id":"Odomo",
-		"cahierDeCharges" : [
-			"Il fallait faire une station météo tah fonctionnelle",
-			"tkt c pro EZ je met du",
-			"text pour test tkt tkt tkt"
-		] ,
-		"livrable":[
-			"img",
-			"imgg"
-		],
-		"methodesEtOutils" : [
-			"Netbeans (best IDE)",
-			"Java"
-		],
-		"competences" : [
-			"Maitrise des tableaux 2D "
-		]
-	},
-	{
-		"id":"test2",
-		"text":"test2",
-		"texrezrzerzt":"test2"
-	}
-]
-
-// const dataJson = dataPath.map((data)=>{
-// 	console.log(data);
-// });
-
-console.log(dataJson[0].id);
 
 function show(id){
 	const thePlaceToBe = document.querySelector(".retex"); 
 
+	document.getElementById("temp").textContent = data.programmationAlgorithmique.name;
 
 	fetch(`../ressources/data/${id}.txt`) // lis le fichier
 	.then(response => {
