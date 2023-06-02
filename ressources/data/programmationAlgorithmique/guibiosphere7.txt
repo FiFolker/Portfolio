@@ -1,0 +1,4 @@
+Gui Biosphere 7 est un projet indépendant de l'IUT que j'ai eu avec un camarade qui était de faire une interface graphique à Biosphère 7 et qu'il soit jouable;
+endGuiBiosphere7.png*gameGuiBiosphere7.png*startGuiBiosphere7.png*optionMenuGuiBiosphere.png*helpGuiBiosphere7.png;
+Netbeans*Java*Git à plusieurs*Java Swing;
+Utilisation de Java Swing*Travail en groupe sur un projet externe à l'IUT*Utilisation du perlin noise

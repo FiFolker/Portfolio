@@ -1,0 +1,4 @@
+Setup d'un machine virtuelle de 0 en créant 2 comptes et installant des logiciels afin de pouvoir remplir les nécéssités des clients qui étaient de pouvoir coder.;
+shell.jpg*vsCodeGo.jpg*launchGO.jpg;
+VMWare*Manjaro;
+Création d'une VM avec VMWare*Création d'utilisateurs et d'administrateurs*Définition de permission sur des comptes*Utilisation de Manjaro

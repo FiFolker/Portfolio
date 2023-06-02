@@ -1,0 +1,5 @@
+Biosphère 7 est un jeu de plateau se jouant à deux joueurs et où l’on peut couper
+des plantes ou les planter. Ce projet était séparé en 2 phases, conception des actions possibles et IA. En voici la première.;
+Biosphere.png*biosphereTerminal.png;
+Netbeans*Java;
+Maitrise des matrices pour le plateau*Programmation Orienté Objet Avancé*Fonctionnement d'une IA basique

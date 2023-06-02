@@ -1,0 +1,5 @@
+Le projet Odomo est une représentation de station météorologique personnelle en Java
+contenant une partie Météo, Chauffage et Jardin. Cette dernière étant à faire tout seul et j'y ai réalisé un système d'hygrométrie.;
+meteo.png*chauffage.png*jardin.png*aide.png;
+Netbeans*Java;
+Maitrise des matrices*Bases de la Programmation Orienté Objet

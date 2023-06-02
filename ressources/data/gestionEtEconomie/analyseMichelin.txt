@@ -1,0 +1,4 @@
+La SAE de gestion avait pour objectif d'analyser le macro environnement d'une entreprise, ici Michelin.;
+bilanMichelin.png*diapoMichelin.png*ganttMichelin.png;
+Excel*PESTEL*Porter;
+Utilisation d'un PESTEL*Analyse Porter*Recherche de documents

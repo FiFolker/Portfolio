@@ -1,0 +1,5 @@
+C'est une adapatation de jeu de plateau en jeu vidéo où le but du jeu est d'arriver à 
+150 points en défaussant des cartes de couleurs grâce à nos pions qui peuvent effectuer diversent actions dans les salles.;
+;
+C#*.NET*Visual Studio 2022;
+Création d'un jeu vidéo*Travail par groupe de 4

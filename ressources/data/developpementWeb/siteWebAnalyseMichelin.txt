@@ -1,0 +1,4 @@
+Le site web devait représenter une entreprise qui fait des analyse du macro environnement sur d'autres entreprises et l'on devait donc montrer notre analyse faites en gestion.;
+accueil.png*nosRapports.png*partenaires.png*rapportMichelin.png*rapportPESTELMichelin.png;
+Visual Studio Code*HTML*CSS*Bootstrap;
+Création d'un site web avec Bootstrap

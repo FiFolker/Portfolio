@@ -1,0 +1,4 @@
+Ce projet avait pour objectif la création d'une base de donnée pour des festivals à partir d'une consigne donnée et d'un MCD à faire avant de commencer la base de donnée. Il y avait aussi comme objectif de faire une carte mentale sur la qualité des données.;
+CastetLeMerleCarteMentale.jpg;
+WinDesign*Windows SQL server;
+Création d'une base de donnée*Création d'un MCD

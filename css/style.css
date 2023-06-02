@@ -35,6 +35,7 @@ body{
 	.sidebar{
 		height: calc(100vh - 72px);
 	}
+
 }
 
 
@@ -95,6 +96,11 @@ button {
 	transition: transform .8s;
 }
 
+.card:not(:hover){
+	transform: scale(1);
+	transition: transform .8s;
+}
+
 .retex{
 	width: 100%;
 	height: 100%;
@@ -136,4 +142,20 @@ button {
 .methodesEtOutils{
 	background-color: rgba(246, 196, 128, .9);
 	color:#311C12;
+}
+
+.hoverImage:hover{
+	z-index: 99;
+	transform: translate(-200%, 100%) scale(6);
+	transition: all .9s;
+}
+
+.hoverImage{
+	position: relative;
+	z-index: 1;
+}
+
+.hoverImage:not(:hover){
+	transform: translateX(0) scale(1);
+	transition: all .5s;
 }

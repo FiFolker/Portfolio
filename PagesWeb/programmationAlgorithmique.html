@@ -11,10 +11,8 @@
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
 	integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
 	<link rel="stylesheet" href="../css/style.css">
-	<script  type="module" src="../js/script.js" 
-	integrity="sha384-Bwah2kSy/O8Tv+Na0HCdTC9LPCIQ05QsCNe8ONrWCXCYYzqv7IJqzG2ifgFOivGb" crossorigin="anonymous">
-	</script>
-	
+	<script src="../js/script.js"></script>
+
 </head>
 <body>
 	
@@ -38,17 +36,16 @@
 							Thème
 						</button>
 						<ul class="dropdown-menu">
-							<li><a class="dropdown-item" href="programmationAlgorithmique.html">Programmation Algoritmique</a></li>
-							<li><a class="dropdown-item" href="baseDeDonne.html">Base de Donnée</a></li>
-							<li><a class="dropdown-item" href="developpementWeb.html">Développement Web</a></li>
-							<li><a class="dropdown-item" href="reseauxEtSystemes.html">Réseaux et Systèmes</a></li>
-							<li><a class="dropdown-item" href="gestionEtEconomie.html">Gestion et Economie</a></li>
-							<li><a class="dropdown-item" href="vacataires.html">Vacataire</a></li>
+							<li><a class="dropdown-item active" href="../PagesWeb/programmationAlgorithmique.html">Programmation Algoritmique</a></li>
+							<li><a class="dropdown-item" href="../PagesWeb/baseDeDonne.html">Base de Donnée</a></li>
+							<li><a class="dropdown-item" href="../PagesWeb/developpementWeb.html">Développement Web</a></li>
+							<li><a class="dropdown-item" href="../PagesWeb/reseauxEtSystemes.html">Réseaux et Systèmes</a></li>
+							<li><a class="dropdown-item" href="../PagesWeb/gestionEtEconomie.html">Gestion et Economie</a></li>
+							<li><a class="dropdown-item" href="../PagesWeb/vacataires.html">Intérimaire</a></li>
 						</ul>
 					</div>
 					
 					<li><a href="meContacter.html" class="nav-link px-2 text-white underline">Me Contacter</a></li>
-					<li><a href="#" class="nav-link px-2 text-white underline">A Propos De Moi</a></li>
 				</ul>
 			</div>
 		</div>
@@ -58,46 +55,46 @@
 	<main class="container-fluid ">
 		<div class="row justify-content-center sidebar">
 			<div class="flex-shrink-0 p-3 col-lg-2 border border-start-0 border-3 rounded-end  bg-dark bg-opacity-50"> 
-				<span class="d-flex align-items-center pb-3 mb-3 border-bottom fs-5 fw-semibold text-white text-center" id="temp">Programmation et Algorithme</span>
+				<span class="d-flex align-items-center pb-3 mb-3 border-bottom fs-5 fw-semibold text-white text-center">Programmation et Algorithme</span>
 				<ul class="list-unstyled ps-0 text-white">
 					<li class="mb-1">
-						<button class="btn btn-toggle d-inline-flex align-items-center rounded text-white main-section highlight" data-bs-toggle="collapse" data-bs-target="#java-collapse" aria-expanded="true">
+						<button class="btn fs-5 btn-toggle d-inline-flex align-items-center rounded text-white main-section highlight" data-bs-toggle="collapse" data-bs-target="#java-collapse" >
 							<svg width="16" height="16" fill="currentColor" class="bi bi-caret-down rotate" >
 								<use xlink:href="#arrow"></use>
 							</svg> Java
 						</button>
 
 						<div class="collapse show" id="java-collapse">
-							<ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small ms-4">
-								<li><button onclick="show(this.id)" id="odomo" class="highlight rounded">Odomo</button></li>
-								<li><button onclick="show(this.id)" id="biosphere7" class="highlight rounded">Biosphere 7</button></li>
-								<li><button onclick="show(this.id)" id="iabiosphere7" class="highlight rounded">IA Biosphere 7</button></li>
-								<li><button onclick="show(this.id)" id="guibiosphere7" class="highlight rounded">GUI Biosphere 7</button></li>
+							<ul class="btn-toggle-nav list-unstyled fw-normal fs-6 pb-1 small ms-4">
+								<li><button onclick="show(this.id, 'programmationAlgorithmique', 'Odomo')" id="odomo" class="highlight rounded">Odomo</button></li>
+								<li><button onclick="show(this.id, 'programmationAlgorithmique', 'Biosphere 7')" id="biosphere7" class="highlight rounded">Biosphere 7</button></li>
+								<li><button onclick="show(this.id, 'programmationAlgorithmique', 'IA Biosphere 7')" id="iabiosphere7" class="highlight rounded">IA Biosphere 7</button></li>
+								<li><button onclick="show(this.id, 'programmationAlgorithmique', 'GUI Biosphere 7')" id="guibiosphere7" class="highlight rounded">GUI Biosphere 7</button></li>
+								<li><button onclick="show(this.id, 'programmationAlgorithmique', 'Mini Rogue')" id="minirogue" class="highlight rounded">Mini Rogue</button></li>
 							</ul>
 						</div>
 					</li>
 					<li class="mb-1">
-						<button class="btn btn-toggle align-items-center rounded text-white main-section highlight" data-bs-toggle="collapse" data-bs-target="#python-collapse" aria-expanded="true">
+						<button class="btn fs-5 btn-toggle align-items-center rounded text-white main-section highlight" data-bs-toggle="collapse" data-bs-target="#python-collapse" aria-expanded="false">
 							<svg width="16" height="16" fill="currentColor" class="bi bi-caret-down rotate" >
 								<use xlink:href="#arrow"></use>
 							</svg> Python
 						</button>
 						<div class="collapse show" id="python-collapse">
-							<ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small ms-4">
-								<li><button onclick="show(this.id)" id="renamer" class="highlight rounded">Renommeur de Masse</button></li>
-								<li><button onclick="show(this.id)" id="greenBg" class="highlight rounded">Test</button></li>
+							<ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small fs-6 ms-4">
+								<li><button onclick="show(this.id, 'programmationAlgorithmique', 'Renommeur de Masse')" id="renamer" class="highlight rounded">Renommeur de Masse</button></li>
 							</ul>
 						</div>
 					</li>
 					<li class="mb-1">
-						<button class="btn btn-toggle align-items-center rounded text-white main-section highlight" data-bs-toggle="collapse" data-bs-target="#csharp-collapse" aria-expanded="true">
+						<button class="btn fs-5 btn-toggle align-items-center rounded text-white main-section highlight" data-bs-toggle="collapse" data-bs-target="#csharp-collapse" aria-expanded="false">
 							<svg width="16" height="16" fill="currentColor" class="bi bi-caret-down rotate" >
 								<use xlink:href="#arrow"></use>
 							</svg> C#
 						</button>
 						<div class="collapse show" id="csharp-collapse">
-							<ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small ms-4">
-								<li><button onclick="show(this.id)" id="devin" class="highlight rounded">Devin</button></li>
+							<ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small fs-6 ms-4">
+								<li><button onclick="show(this.id, 'programmationAlgorithmique', 'Hyperstellar')" id="hyperstellar" class="highlight rounded">Hyperstellar</button></li>
 							</ul>
 						</div>
 					</li>
@@ -113,7 +110,7 @@
 							<h4 class="text-center">Cahier des Charges</h4>
 							<ul></ul>
 						</div>
-						<div class="livrable">
+						<div class="livrable ">
 							<h4 class="text-center">Livrable/Livrée</h4>
 							<ul></ul>
 						</div>
@@ -134,17 +131,19 @@
 	</main>
 	
 	<!-- Bootstrap JavaScript Libraries -->
-	<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
-	integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
-</script>
-
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"
-integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous">
-</script>
-
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" 
-integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous">
-</script>
+	
+		<!-- Bootstrap JavaScript Libraries -->
+		<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+		integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
+		</script>
+		
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"
+		integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
+	</script>
+	
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" 
+	integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous">
+	</script>
 </body>
 
 </html>

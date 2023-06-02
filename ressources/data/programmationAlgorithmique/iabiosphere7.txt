@@ -1,0 +1,4 @@
+IA Biosphère 7 est la seconde phase de Biosphère 7 où l'on doit faire des IA qui s'affrontent sur le jeu et ont pour objectif de gagner;
+Biosphere.png*biosphereTerminal.png;
+Netbeans*Java;
+Maitrise des matrices pour le plateau*Programmation Orienté Objet Avancé*Fonctionnement d'une IA basique
